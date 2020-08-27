@@ -4,7 +4,7 @@ class Header extends React.Component {
     state = { color: "black" }
 
     clickHandler = () => {
-        if (this.state.color == "black") {
+        if (this.state.color === "black") {
             this.setState({ color: "blue" })
         } else {
             this.setState({ color: "black" })
